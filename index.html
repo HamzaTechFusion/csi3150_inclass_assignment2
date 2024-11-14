@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCs of CSS Technology</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Interactive ABCs of CSS Technology learning Website</h1>
+        <p>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters.</p>
+        
+        <div id="feature">
+            <div id="content-A" class="feature">
+                <h2>A is for aspect-ratio</h2>
+                <img src="./assets/css-letter-a.png" alt="Aspect ratio example">
+                <p>Does this aspect-ratio make me look fat?</p>
+                <button onclick="hideFeature('A')">Hide Result</button>
+            </div>
+
+            <div id="content-B" class="feature">
+                <h2>B is for border</h2>
+                <img src="./assets/css-letter-b.png" alt="Border example">
+                <p>Customize your domain.</p>
+                <button onclick="hideFeature('B')">Hide Result</button>
+            </div>
+
+            <div id="content-C" class="feature">
+                <h2>C is for colors</h2>
+                <img src="./assets/css-letter-c.png" alt="Colors example">
+                <p>I have so many colors that Firefox banned me from entry!</p>
+                <button onclick="hideFeature('C')">Hide Result</button>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="showFeature('A')">A</button>
+            <button onclick="showFeature('B')">B</button>
+            <button onclick="showFeature('C')">C</button>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
